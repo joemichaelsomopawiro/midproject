@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /*membuat header dan footernya menjadi penuh*/
+}*{
+    margin:0;
+    padding:0;
+}
+
+header, footer {
+    
+    background-color: black;
+    width: 100%;
+}
+
+input{
+    padding-left: 20px;
+}
+header {
+    position: fixed;
+    height: 8vh;
+
+}
+footer {
+    height: 15vh;
+    bottom:0;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+   position: absolute;
+   width: 100%;
+}
+.nav a {
+    position: relative;
+    left: 55%;
+    top: 20px;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-weight: bolder;
+    
+}
+.video {
+    width: 100%;
+}
+input {
+    padding-top: 20px;
+    padding-left: 280px;
+}
+.yellow {
+    width: 50%;
+    height: 475px;
+    background-color: #ffe100;
+    float: left;
+    border-top-color: #ffe100;
+}
+.green {
+    width: 50%;
+    height: 475px;
+    background-color: #00a23a;
+    float: right;
+}
+.yellow, .green p{
+    text-align: center;
+}
+.button {
+    position: relative;
+  width: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 3px solid rgb(255, 255, 255);
+  margin: 0;
+  background-color: #0053a1;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  top: 40%;
+  left: 40%;
+
+}
