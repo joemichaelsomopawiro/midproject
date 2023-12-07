@@ -1,6 +1,6 @@
 [[redirects]]
-  from = "/tailwind/*"
-  to = "/tailwind/index.html"
+  from = "/tailwindcss/*"
+  to = "/tailwindcss/index.html"
   status = 200
 
 [[redirects]]
