@@ -1,0 +1,14 @@
+[[redirects]]
+  from = "/tailwind/*"
+  to = "/tailwind/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/bootstrap/*"
+  to = "/bootstrap/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
